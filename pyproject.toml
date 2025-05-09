@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "feedback-report"
+version = "0.1.0"
+description = "A Django-based feedback report generator"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^5.0"
+djangorestframework = "^3.14"
+psycopg2-binary = "^2.9"
+celery = "^5.3"
+redis = "^5.0"
+reportlab = "^4.0"
+gunicorn = "^21.2"
+
+[tool.poetry.dev-dependencies]
+black = "^24.3"
+isort = "^5.12"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
