@@ -1,7 +1,7 @@
 ## Setup Instructions
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/Siraj-Bhai/feedback-report.git
 cd feedback_report
 poetry install
 docker-compose -f docker/docker-compose.yml up --build
